@@ -1,0 +1,52 @@
+{
+  "logo": "<svg width=\"56\" height=\"65\" viewBox=\"0 0 6 7\" shape-rendering=\"crispEdges\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"1\" y=\"0\" width=\"1\" height=\"1\" fill=\"#79ea83\"/><rect x=\"4\" y=\"0\" width=\"1\" height=\"1\" fill=\"#79ea83\"/><rect x=\"1\" y=\"1\" width=\"1\" height=\"1\" fill=\"#485460\"/><rect x=\"2\" y=\"1\" width=\"1\" height=\"1\" fill=\"#485460\"/><rect x=\"3\" y=\"1\" width=\"1\" height=\"1\" fill=\"#485460\"/><rect x=\"4\" y=\"1\" width=\"1\" height=\"1\" fill=\"#485460\"/><rect x=\"0\" y=\"2\" width=\"1\" height=\"1\" fill=\"#485460\"/><rect x=\"1\" y=\"2\" width=\"1\" height=\"1\" fill=\"#fbc048\"/><rect x=\"2\" y=\"2\" width=\"1\" height=\"1\" fill=\"#485460\"/><rect x=\"3\" y=\"2\" width=\"1\" height=\"1\" fill=\"#485460\"/><rect x=\"4\" y=\"2\" width=\"1\" height=\"1\" fill=\"#fbc048\"/><rect x=\"5\" y=\"2\" width=\"1\" height=\"1\" fill=\"#485460\"/><rect x=\"0\" y=\"3\" width=\"1\" height=\"1\" fill=\"#485460\"/><rect x=\"1\" y=\"3\" width=\"1\" height=\"1\" fill=\"#fbc048\"/><rect x=\"2\" y=\"3\" width=\"1\" height=\"1\" fill=\"#485460\"/><rect x=\"3\" y=\"3\" width=\"1\" height=\"1\" fill=\"#485460\"/><rect x=\"4\" y=\"3\" width=\"1\" height=\"1\" fill=\"#fbc048\"/><rect x=\"5\" y=\"3\" width=\"1\" height=\"1\" fill=\"#485460\"/><rect x=\"0\" y=\"4\" width=\"1\" height=\"1\" fill=\"#485460\"/><rect x=\"1\" y=\"4\" width=\"1\" height=\"1\" fill=\"#485460\"/><rect x=\"2\" y=\"4\" width=\"1\" height=\"1\" fill=\"#485460\"/><rect x=\"3\" y=\"4\" width=\"1\" height=\"1\" fill=\"#485460\"/><rect x=\"4\" y=\"4\" width=\"1\" height=\"1\" fill=\"#485460\"/><rect x=\"5\" y=\"4\" width=\"1\" height=\"1\" fill=\"#485460\"/><rect x=\"0\" y=\"5\" width=\"1\" height=\"1\" fill=\"#485460\"/><rect x=\"1\" y=\"5\" width=\"1\" height=\"1\" fill=\"#485460\"/><rect x=\"2\" y=\"5\" width=\"1\" height=\"1\" fill=\"#485460\"/><rect x=\"3\" y=\"5\" width=\"1\" height=\"1\" fill=\"#485460\"/><rect x=\"4\" y=\"5\" width=\"1\" height=\"1\" fill=\"#485460\"/><rect x=\"5\" y=\"5\" width=\"1\" height=\"1\" fill=\"#485460\"/><rect x=\"0\" y=\"6\" width=\"1\" height=\"1\" fill=\"#485460\"/><rect x=\"2\" y=\"6\" width=\"1\" height=\"1\" fill=\"#485460\"/><rect x=\"3\" y=\"6\" width=\"1\" height=\"1\" fill=\"#485460\"/><rect x=\"5\" y=\"6\" width=\"1\" height=\"1\" fill=\"#485460\"/></svg>",
+  "eyebrow": "Pixel art editor",
+  "wordmark": "PixelArt",
+  "tagline": "A simple project to learn HTML, CSS &amp; JS,<br>ported to React and Vue.",
+  "buttons": [
+    {
+      "label": "GitHub",
+      "icon": "share",
+      "filled": true
+    }
+  ],
+  "image": "result.png",
+  "imageSize": "150%",
+  "imagePosition": "50% 50%",
+  "thumbSize": [
+    440,
+    300
+  ],
+  "facts": [
+    {
+      "icon": "code",
+      "label": "Stack",
+      "value": "HTML · CSS · JS"
+    },
+    {
+      "icon": "branch",
+      "label": "Ports",
+      "value": "React 19 · Vue 3.5"
+    },
+    {
+      "icon": "terminal",
+      "label": "Tooling",
+      "value": "Vite 8 · Bun 1.4"
+    },
+    {
+      "icon": "user",
+      "label": "Author",
+      "value": "kbrdn1",
+      "person": true
+    }
+  ],
+  "chips": [
+    "Click & drag to paint",
+    "Keyboard shortcuts",
+    "Grid up to 20×20",
+    "Vanilla · React · Vue"
+  ],
+  "install": "cd react &amp;&amp; bun install &amp;&amp; bun run dev",
+  "installLabel": "Run locally",
+  "footer": "github.com/kbrdn1/PixelArt"
+}
