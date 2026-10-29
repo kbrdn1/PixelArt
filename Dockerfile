@@ -1,37 +1,36 @@
-FROM node:20.9.0 AS react-build
+FROM oven/bun:1.4.2 AS react-build
 WORKDIR /build/react
-COPY ./react/index.html /build/react/
-COPY ./react/package.json /build/react/
-COPY ./react/.eslintrc.cjs /build/react/
+COPY ./react/package.json ./react/bun.lock /build/react/
 
 # Install dependencies
-RUN npm install
+RUN bun install --frozen-lockfile
 
 # Copy source code
+COPY ./react/index.html ./react/vite.config.js /build/react/
 COPY ./react/public ./public
 COPY ./react/src ./src
 
-# Build
-RUN npm run build
+# Build (--bun : the image ships no node, run vite on the bun runtime)
+RUN bun --bun run build
 
 # Display the build directory structure and time of build
 RUN ls -lR /build/react
 RUN date
 
-FROM node:20.9.0 AS vue-build
+FROM oven/bun:1.4.2 AS vue-build
 WORKDIR /build/vue
-COPY ./vue/index.html /build/vue/
-COPY ./vue/package.json /build/vue/
+COPY ./vue/package.json ./vue/bun.lock /build/vue/
 
 # Install dependencies
-RUN npm install
+RUN bun install --frozen-lockfile
 
 # Copy source code
+COPY ./vue/index.html ./vue/vite.config.js /build/vue/
 COPY ./vue/public ./public
 COPY ./vue/src ./src
 
-# Build
-RUN npm run build
+# Build (--bun : the image ships no node, run vite on the bun runtime)
+RUN bun --bun run build
 
 # Display the build directory structure and time of build
 RUN ls -lR /build/vue
